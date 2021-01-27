@@ -1,4 +1,22 @@
 <?php
+// // Error Reporting Turn On
+// ini_set('error_reporting', E_ALL);
+
+// // Setting up the time zone
+// date_default_timezone_set('Asia/Dhaka');
+
+// // Host Name
+// $dbhost = 'localhost';
+
+// // Database Name
+// $dbname = 'xicia_ecommerce';
+
+// // Database Username
+// $dbuser = 'root';
+
+// // Database Password
+// $dbpass = '';
+
 // Error Reporting Turn On
 ini_set('error_reporting', E_ALL);
 
@@ -6,19 +24,19 @@ ini_set('error_reporting', E_ALL);
 date_default_timezone_set('Asia/Dhaka');
 
 // Host Name
-$dbhost = 'localhost';
+$dbhost = 'remotemysql.com';
 
 // Database Name
-$dbname = 'xicia_ecommerce';
+$dbname = 'cgItiBnmOy';
 
 // Database Username
-$dbuser = 'root';
+$dbuser = 'cgItiBnmOy';
 
 // Database Password
-$dbpass = '';
+$dbpass = 'TRha1WbKKg';
 
 // Defining base url
-define("BASE_URL", "http://yourwebsite.com/");
+define("BASE_URL", "https://cmsldt.herokuapp.com/");
 
 // Getting Admin url
 define("ADMIN_URL", BASE_URL . "admin" . "/");
