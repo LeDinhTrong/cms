@@ -1,9 +1,9 @@
 CUSTOMER
-"http://shophappy.rf.gd/"
-username:custmer@gmail.com
-password:customer
+<p> "http://shophappy.rf.gd/" </n><p>
+<p>username:custmer@gmail.com </n><p>
+<p>password:customer </n><p>
 
-ADMIN
-"http://shophappy.rf.gd/admin/login.php"
-username:sadmin@gmail.com
-password:1234
+<p>ADMIN</n><p>
+<p>"http://shophappy.rf.gd/admin/login.php"</n><p>
+<p>username:sadmin@gmail.com</n><p>
+<p>password:1234</n><p>
