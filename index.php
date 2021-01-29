@@ -1,5 +1,6 @@
 <?php require_once('header.php'); ?>
 
+
 <?php
 $statement = $pdo->prepare("SELECT * FROM tbl_settings WHERE id=1");
 $statement->execute();
@@ -40,6 +41,7 @@ foreach ($result as $row)
     $ads_above_testimonial_on_off       = $row['ads_above_testimonial_on_off'];
     $ads_category_sidebar_on_off        = $row['ads_category_sidebar_on_off'];
 }
+
 
 $statement = $pdo->prepare("SELECT * FROM tbl_advertisement");
 $statement->execute();
