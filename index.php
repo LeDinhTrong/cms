@@ -125,7 +125,7 @@ foreach ($result as $row) {
                     ?>
                     <div class="col-md-4">
                         <div class="item">
-                            <div class="photo"><img src="assets/uploads/<?php echo $row['photo']; ?>" alt="<?php echo $row['title']; ?>"></div>
+                            <div class="photo"><img width="87" height="87" src="assets/uploads/<?php echo $row['photo']; ?>" alt="<?php echo $row['title']; ?>"></div>
                             <h3><?php echo $row['title']; ?></h3>
                             <p>
                                 <?php echo nl2br($row['content']); ?>
@@ -151,7 +151,7 @@ foreach ($result as $row) {
                         echo $adv_adsense_code[0];
                     } else {
                         if($adv_url[0]=='') {
-                            echo '<img src="assets/uploads/'.$adv_photo[0].'" alt="Advertisement">';
+                            echo '<img  src="assets/uploads/'.$adv_photo[0].'" alt="Advertisement">';
                         } else {
                             echo '<a href="'.$adv_url[0].'"><img src="assets/uploads/'.$adv_photo[0].'" alt="Advertisement"></a>';
                         }                               
